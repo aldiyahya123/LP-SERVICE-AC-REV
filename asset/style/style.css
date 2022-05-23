@@ -13,6 +13,7 @@
 
 .frame-1 {
     background-image: url(../img/bg-putih-service-ac.webp);
+    background-size: cover;
 }
 
 .logo-dokter-mobil {
@@ -61,7 +62,31 @@
     bottom: 8%;
     right: 5%;
 }
+.down-arrow-2 {
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+}
 
+/* frame 2 */
+
+.sa-2-title-up {
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 130%;
+}
+
+.sa-2-title-down {
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 130%;
+}
 
 @media only screen and (max-width: 600px) {
     .logo-dokter-mobil {
@@ -70,12 +95,28 @@
     }
 
     .header-title {
-      font-size: 9vw;
+        font-size: 9vw;
     }
 
     .sub-header {
         font-size: 6vw;
     }
     
+    .down-arrow {
+        width: 9%;
+    }
 
-  }
+    .sa-2-title-up {
+        font-size :5vw;
+    }
+
+    .sa-2-title-down {
+        font-size :3.3vw;
+    }
+
+    .down-arrow-2 {
+        width: 9%;
+        bottom: -1%;
+    }
+
+}
