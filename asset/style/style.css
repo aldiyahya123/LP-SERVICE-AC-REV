@@ -16,6 +16,11 @@
     background-size: cover;
 }
 
+.frame-red {
+    background-image: url(../img//bg-kenyamanan-service-ac.webp);
+    background-size: cover;
+}
+
 .logo-dokter-mobil {
     background-color: white;
     width: 20%;
@@ -54,7 +59,6 @@
     margin-left: -6%;
     max-width: 800px;
     width: 100%;
-
 }
 
 .down-arrow {
@@ -82,11 +86,40 @@
 .sa-2-title-down {
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: #000000;
+    color: black;
     font-weight: 600;
     font-size: 30px;
     line-height: 130%;
 }
+
+/* frame 3 */
+
+.sa-3-title-up {
+    text-shadow: 4px 11px 7px rgba(0, 0, 0, 0.45);
+    font-style: italic;
+    font-weight: 800;
+    font-size: 60px;
+    color: white;
+    line-height: 130%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-transform: uppercase;
+    background: linear-gradient(270deg, rgba(219, 219, 219, 0) -2.07%, rgba(237, 237, 237, 0.21) 19.73%, rgba(255, 255, 255, 0.1) 53.22%, rgba(219, 219, 219, 0.26) 79.71%, rgba(219, 219, 219, 0) 100%);
+}
+
+.sa-3-title-right {
+    color: white;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 130%;
+}
+
+.sa-3 {
+    max-width: 800px;
+    width: 100%;
+}
+
 
 @media only screen and (max-width: 600px) {
     .logo-dokter-mobil {
@@ -117,6 +150,15 @@
     .down-arrow-2 {
         width: 9%;
         bottom: -1%;
+    }
+
+    .sa-3-title-up {
+        font-size :9vw;
+    }
+
+    .sa-3-title-right {
+        font-size :4.5vw;
+        text-align: center;
     }
 
 }
