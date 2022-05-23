@@ -52,7 +52,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    /* text-fill-color: transparent; */
 }
 
 .sa-1 {
@@ -120,6 +120,99 @@
     width: 100%;
 }
 
+/* sa 5 */
+
+.sa-5 {
+    margin-top: -5%;
+    width: 100%;
+    z-index:1;
+}
+
+.sa-5-title-up {
+    margin-top: -3%;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 57px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #EB1C23;
+    text-shadow: 2px 8px 9px rgba(0, 0, 0, 0.15);
+}
+
+.sa-5-title-down {
+    margin: 3% 20% 0 20%;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* sa-6 */
+
+.sa-6-title-up {
+    text-shadow: 4px 11px 7px rgba(0, 0, 0, 0.45);
+    font-style: italic;
+    font-weight: 800;
+    color: white;
+    line-height: 130%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-transform: uppercase;
+    background: linear-gradient(270deg, rgba(219, 219, 219, 0) -2.07%, rgba(237, 237, 237, 0.21) 19.73%, rgba(255, 255, 255, 0.1) 53.22%, rgba(219, 219, 219, 0.26) 79.71%, rgba(219, 219, 219, 0) 100%);
+}
+
+.sa-6-standard {
+    font-style: italic;
+    font-weight: 800;
+    /* font-size: 33px; */
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 4px 11px 7px rgba(0, 0, 0, 0.45);
+}
+
+.sa-6-outline {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 66px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.sa-6-harga {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 106px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-shadow: 4px 11px 7px rgba(0, 0, 0, 0.45);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    z-index: 1 !important;
+}
+
+.red-line {
+    width: 50%;
+    height: 4px;
+    margin: -7% auto 7% auto;
+    z-index:76 !important;
+    background-color: red;
+    position: relative;
+    transform :rotate(-5deg);
+}
+
 
 @media only screen and (max-width: 600px) {
     .logo-dokter-mobil {
@@ -149,7 +242,7 @@
 
     .down-arrow-2 {
         width: 9%;
-        bottom: -1%;
+        bottom: unset;
     }
 
     .sa-3-title-up {
@@ -159,6 +252,24 @@
     .sa-3-title-right {
         font-size :4.5vw;
         text-align: center;
+    }
+
+    .sa-5 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .sa-5-title-up {
+        font-size: 5vw;
+    }
+    
+    .sa-5-title-down {
+        font-size: 4vw;
+        margin: 3% 3% 0 3%;
+    }
+
+    .sa-6-outline {
+        font-size: 11vw;
     }
 
 }
