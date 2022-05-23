@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.outer-container {
+    position: relative;
+}
+
+.frame-1 {
+    background-image: url(../img/bg-putih-service-ac.webp);
+}
+
+.logo-dokter-mobil {
+    background-color: white;
+    width: 20%;
+    min-width: 250px;
+    padding: 20px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 23px 23px;
+}
+
+.header-title {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 84px;
+    line-height: 130%;
+    background: linear-gradient(180deg, #212121 0%, #5A5A5A 20.83%, #212121 38.02%, #212121 56.25%, #5A5A5A 76.04%, #212121 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 5px 6px 15px rgba(0, 0, 0, 0.35);
+}
+
+.sub-header {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 52px;
+    background: linear-gradient(180deg, #EB1C23 0%, #C62127 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.sa-1 {
+    margin-left: -6%;
+    max-width: 800px;
+    width: 100%;
+
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logo-dokter-mobil {
+        width: 50vw;
+        min-width: unset;
+    }
+
+    .header-title {
+      font-size: 9vw;
+    }
+
+    .sub-header {
+        font-size: 6vw;
+    }
+    
+
+  }
